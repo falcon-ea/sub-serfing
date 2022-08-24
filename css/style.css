@@ -57,7 +57,7 @@ img {
 }
 
 .header {
-   background-image: url(/images/header-bg2.jpg);
+   background-image: url(../images/header-bg2.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -72,7 +72,7 @@ img {
 /*header::before {
    content: "";
    position: absolute;
-   background-image: url(/images/header-decor.svg);
+   background-image: url(../images/header-decor.svg);
    bottom: 0;
    left: 0;
    right: 0;
@@ -87,7 +87,7 @@ img {
 header::after {
    content: "";
    position: absolute;
-   background-image: url(/images/decor-bottom3.png);
+   background-image: url(../images/decor-bottom3.png);
    bottom: -150px;
    left: 0;
    right: 100px;
@@ -200,7 +200,7 @@ header::after {
 /*-----------section info-------------*/
 
 .info {
-   background-image: url(/images/info-bg.jpg);
+   background-image: url(../images/info-bg.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -210,7 +210,7 @@ header::after {
 .info::before {
    content: "";
    position: absolute;
-   background-image: url(/images/decor-bottom2.png);
+   background-image: url(../images/decor-bottom2.png);
    top: -50px;
    left: 0;
    right: 0;
@@ -383,7 +383,7 @@ header::after {
    bottom: 130px;
    width: 201px;
    height: 199px;
-   background-image: url(/images/star.svg);
+   background-image: url(../images/star.svg);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -423,7 +423,7 @@ header::after {
 }
 
 .technology__top {
-   background-image: url(/images/tech-bg.png);
+   background-image: url(../images/tech-bg.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -679,7 +679,7 @@ header::after {
 }
 
 @media (max-width: 1024px) {
-	.header__content {
+   .header__content {
       justify-content: center;
    }
 }
@@ -747,9 +747,9 @@ header::after {
       background-color: rgba(88, 102, 92, 0.5);
    }
 
-	.technology__top-inner {
-		min-height: 85vh;
-	}
+   .technology__top-inner {
+      min-height: 85vh;
+   }
 
    .technology__list {}
 
@@ -822,7 +822,7 @@ header::after {
    }
 
    .header {
-      background-image: url('/images/header-bg2-dark.jpg');
+      background-image: url('../images/header-bg2-dark.jpg');
    }
 
    .header__descr {
